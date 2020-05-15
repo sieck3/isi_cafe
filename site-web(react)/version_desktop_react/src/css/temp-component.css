@@ -1,0 +1,12 @@
+.commande-component {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.commande-component div {
+    flex: 1;
+    font-size: 1.2rem;
+    height: 100%;
+}

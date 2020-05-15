@@ -1,0 +1,130 @@
+.commandes-container h2 {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.commande-component-unique {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.commande {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px black solid;
+    -webkit-box-shadow: 0px 12px 5px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 12px 5px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 5px -10px rgba(0, 0, 0, 0.75);
+}
+
+.commande:hover {
+    border-left: 2px solid black;
+    background-color: darkgrey;
+}
+
+.commande div {
+    flex: 1;
+    font-size: .9rem;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.products label {
+    flex: 1;
+}
+
+.commande-info {
+    background-color: grey;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}
+
+.commande-info div {
+    flex: 1;
+    font-size: .9rem;
+    color: white;
+    text-align: center;
+}
+
+.price {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.line-division {
+    height: 1px;
+    background-color: grey;
+    margin-top: 5px;
+}
+
+.change-page-commandes {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    height: 65px;
+}
+
+.change-page-commandes button {
+    flex: 1;
+    margin: 10px;
+    font-size: .8rem;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: slategray;
+}
+
+.change-page-commandes button:hover {
+    background-color: lightskyblue;
+    color: white;
+}
+
+.change-page-commandes-choissi button {
+    flex: 1;
+    margin: 10px;
+    font-size: .8rem;
+    border-radius: 10px;
+    background-color: slategray;
+}
+
+.select-date {
+    display: flex;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.select-date div {
+    flex: 1;
+    text-align: center;
+}
+
+.penaliser {
+    background-color: red;
+    font-weight: bold;
+}
+
+.penaliser:hover {
+    background-color: orange;
+    color: white;
+}
+
+.paye {
+    background-color: green;
+    font-weight: bold;
+}
+
+.paye:hover {
+    background-color: rgb(88, 209, 94);
+    color: white;
+}

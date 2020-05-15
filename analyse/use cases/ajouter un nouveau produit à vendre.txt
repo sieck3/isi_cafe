@@ -1,0 +1,15 @@
+cas d'utilisation : l'employé ajoute un nouveau produit à vendre
+
+Scénario principal :
+
+Ce scénario est activé à partir de "afficher la liste des produits".
+L'employé clique sur le bouton "ajouter un nouveau produit".
+Le système affiche un formulaire avec le nom, le prix, l'image, la description et la quantité disponible.
+
+L'employé fournit les infos du nouveau produit en remplissant le formulaire.
+Puis clique sur le bouton "enregistrer".
+
+Scénario alternatif :
+
+L'employé clique sur le bouton "annuler".
+Le scénario "afficher la liste des produits" est activé.

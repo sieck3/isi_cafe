@@ -1,0 +1,54 @@
+.inscription-component {
+    /* background-color: aqua;*/
+    width: 40%;
+    margin: 0 auto;
+    border: black solid 1px;
+    border-radius: 30px;
+    padding: 20px;
+    height: 450px;
+    box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.6);
+}
+
+.inscription-component form {
+    height: 300px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container-input {
+    display: flex;
+    flex-direction: column;
+    /*background-color: blueviolet;*/
+    margin: 0 auto;
+    height: 19%;
+    font-size: .7rem;
+}
+
+.container-input input {
+    border: black solid 1px;
+}
+
+.btn_container {
+    font-size: .6rem;
+    display: flex;
+    justify-content: space-between;
+    height: 12%;
+}
+
+.deja-inscrit {
+    background-color: red;
+    width: 40%;
+}
+
+.deja-inscrit:hover {
+    background-color: orange;
+}
+
+.sinscrire {
+    background-color: #00AF33;
+    width: 40%;
+}
+
+.sinscrire:hover {
+    background-color: rgb(88, 209, 94);
+}

@@ -1,0 +1,12 @@
+Cas d'utilisation: Afficher la liste des utilisateurs
+
+Scénario principal :
+
+ L'administrateur ou L'employé clique sur le bouton "liste d'utilisateurs" à partir de la page principale ou de la barre de navigation.
+Le système affiche une liste de tous les clients.
+La liste affiche le username, le nom, le prénom, le nombre de commandes passées,le statut(employe ou client) le nombre de pénalités appliquées.
+
+Scénario alternatif :
+
+L'employé ou l'administrateur clique  sur le bouton "liste des utilisateurs".
+S'il n'y a pas encore de compte employe,client, le système affiche "pas de comptes".

@@ -1,0 +1,10 @@
+Cas d'utilisation : Réinitilisation mot de passe
+
+Scénario principal :
+Le client entre son username, le système vérifie si le username entré existe dans la base de donnée. Si le username a été trouvé, le système envoie un code de confirmation par email au client correspondant à ce username. Le système envoie le client vers un nouveau formulaire qui demande au client de saisir le code de confirmation envoyé par e-maill et le nouveau mot de passe à taper deux fois. Le client entre le nouveau mot de passe (deux fois), et le code de confirmation, le système affiche un message "Votre mot de passe a été enregistré !", le client peut ainsi se connnecter avec son nouveau mot de passe.
+
+Scénario alternatif :
+Les deux mots de passes ne sont pas identiques. Le système affiche un message : "vos mot de passe ne sont pas identiques".
+
+Si le système ne retrouve le username saisi par le client, il demandera au client d'entrer le bon username.
+Si le code de confirmation entré par le client ne correspond pas au code de confirmation que le système a envoyé au client, un message d'erreur sera afficher.

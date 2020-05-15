@@ -1,0 +1,12 @@
+Cas d'utilisation : le client s'enregistre
+
+Le client entre son username (école), son email (école ou perso), son mot de passe (deux fois), son prénom et son nom.
+Le système informe directement le client si son mot de passe est valide ou non (deux mdp identiques, nombre de caractères, types de caractères).
+Le système vérifie si le username n'est pas déjà utilisé, vérifie la légitimité du username (si username de l'école).
+Si tout est valide, le système envoie un email au client. Le client est redirigé vers la page de login avec un message disant que l'inscription a fonctionné. Il peut alors se connecter.
+
+Scénarii alternatifs :
+
+Si le username est déjà enregistré (utilisé), le client reste sur la même page et le système affiche "ce username est déjà utilisé".
+
+Si le username n'est pas légitime, le système reste sur la page inscription avec un message "le username choisi ne fait pas partie des usernames de l'école".

@@ -1,0 +1,7 @@
+Cas d'utilisation : l'employé saisi un nouveau stock, le matin après avoir fait les nouveaux sandwiches ou quand il reçoit un nouveau carton de boissons
+
+Scénario principal :
+
+Le système affiche une liste de tous les produits avec photo, nom, quantité en stock, un champ de texte (nombre) et un bouton "modifier".
+L'employé saisit la nouvelle quantité du produit dans le champ de texte.
+Si l'employé clique sur "modifier", le système enregistre le nouveau stock.

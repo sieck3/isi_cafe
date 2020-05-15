@@ -1,0 +1,44 @@
+﻿# liste des acteurs :
+
+client
+employé
+administrateur
+
+# liste des use cases :
+
+## clients :
+
+afficher la liste des produits : Francis
+afficher le panier : Aïssata
+ajout d'un produit au panier : all
+changer la quantité d'un produit dans le panier : Moussa
+connexion : all
+consulter ses commandes : Ariane
+consulter son profil : Ariane
+effacer un produit du panier : 
+enregistrement : all
+modifier mot de passe :
+passer commande : Pierre
+réinitialiser le mot de passe : Aïssata
+supprimer compte : 
+voir le détail d'un produit : Aïssata
+
+
+## employés :
+
+afficher la liste des clients : César
+afficher les commandes (pour une journée) : César
+ajouter un nouveau produit à vendre : Boubacar
+appliquer une pénalité : Ariane
+connexion : all
+consulter l'historique des ventes : Francis
+enregistrer une vente : Boubacar
+rafraîchir stock : all
+validation d'une commande : all
+
+
+## administrateurs :
+
+afficher la liste des clients : 
+connexion : all
+supprimer un compte client/employé : Moussa

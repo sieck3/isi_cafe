@@ -1,0 +1,5 @@
+﻿Cas d'utilisation : consulter l'historique
+
+Ce cas d'utilisation sera accessible seulement au travers la connexion de l'employé.
+Le système affiche tous les produits/quantités vendus l'année passée à la même date.
+Tableau de quantités à double entrée avec produits en ordonnée et dates en abscisse.

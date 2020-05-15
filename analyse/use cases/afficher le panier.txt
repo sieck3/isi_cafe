@@ -1,0 +1,11 @@
+Use case :  afficher le panier
+
+Scénario principal :
+
+Le client clique sur le panier, qui est visible à partir de n'importe qu'elle page du site ou de l'application.
+Le système cherche et affiche la liste des produits du client.
+
+Scénario alternatif :
+
+Le client clique sur le panier. Le système cherche les produits dans le panier.
+Si le système ne trouve pas de produit, il affiche un message "Votre panier est vide".

@@ -1,0 +1,117 @@
+.pannier-container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+.pannier-container h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.6rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.pannier-component {
+    width: 100%;
+}
+
+.line-division {
+    height: 1px;
+    background-color: grey;
+    margin-top: 5px;
+}
+
+.article-container {
+    display: flex;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.article-container button {
+    flex: 1;
+    font-size: 1.2rem;
+    height: 40px;
+}
+
+.article-container label {
+    flex: 2;
+    height: 50px;
+    font-size: 1.2rem;
+}
+
+.pannier-container img {
+    width: 100px;
+}
+
+.results {
+    bottom: 0;
+    width: 80%;
+    height: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    position: fixed;
+    background-color: grey;
+    display: flex;
+    /*justify-content: space-between;*/
+    font-size: 1.4rem;
+    -webkit-box-shadow: 11px 10px 10px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 11px 10px 10px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 11px 10px 10px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.article-container h5 {
+    flex: 3;
+    font-size: 1.6rem;
+}
+
+.article-container h3 {
+    font-size: .9rem;
+}
+
+.btn-effacer {
+    background-color: red;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn-effacer:hover {
+    background-color: orange;
+}
+
+.article-pannier-component {
+    -webkit-box-shadow: 0px 12px 5px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 12px 5px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 12px 5px -10px rgba(0, 0, 0, 0.75);
+}
+
+.btn-passer-commande {
+    background-color: #00AF33;
+    border: 1px solid black;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn-passer-commande:hover {
+    background-color: rgb(88, 209, 94);
+}
+
+.results h3 {
+    color: white;
+    flex: 4;
+}
+
+.results button {
+    flex: 1;
+    font-size: .9rem;
+}
+
+.compte-bloque {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;
+    border-radius: 10px 10px 10px 10px;
+}

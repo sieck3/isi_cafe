@@ -1,0 +1,8 @@
+Uce case : supprimer un compe
+
+scénario principal:
+
+l'administrateur,sur la page "liste des utilisateurs" clique sur le bouton "supprimer" d'une colone.
+le systeme va dans la base de donnée supprimer le compte de l'utilisateur concerne concerné.
+
+scénario alternatif:

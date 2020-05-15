@@ -1,0 +1,40 @@
+Proposition de packages                     
+
+                Front:
+
+       Operations ou commande:
+
+ajouter un produit dans le panier
+changer la quantite dun produit
+voir le detail dun produit
+passer une commande 
+ajouter le panier
+
+      enregistrement (changer le cas d'utilistation enregitrement pour inscription)
+
+enregistrement(ou inscription)
+connexion
+consulter son profil
+consulter ses commandes
+supprimmer un compte
+
+
+                 Back:
+
+       Administration ou gestion clients:
+
+afficher la liste des clients
+afficher la liste des produits
+appliquer une pénalite
+
+
+       Administration ou gestion produits:
+
+afficher les commandes pour une journée
+validation dune commande
+ajouter un produit a vendre
+consulter l'historique des ventes
+enregistrer une vente
+rafraichir stock
+
+

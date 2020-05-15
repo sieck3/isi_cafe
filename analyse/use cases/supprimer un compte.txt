@@ -1,0 +1,8 @@
+Cas d'utilisation : Supprimer un compte client/employé
+
+Scénario principal:
+
+Le système affiche la liste de tous les clients et la liste de tous les employés.
+La liste contient les usernames, noms, prénoms, dates de création de compte et un bouton "supprimer".
+Si l'administrateur clique sur "supprimer", le système affiche une demande de confirmation avec les infos du compte.
+Si l'administrateur confirme, le système efface ce client/employé (compte) de la liste.

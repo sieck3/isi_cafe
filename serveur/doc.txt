@@ -1,0 +1,16 @@
+page
+	méthode
+		paramètres
+			réponse
+
+http://70.53.207.187:9876/utilisateurs
+	POST
+		?username={username}&pwd={pwd}
+			{"username":"pbodinea","idPrivilege":1,"nom":"Bodineau","prenom":"Pierre","inscription":"31/01/2018"}
+		{}
+			null
+
+http://70.53.207.187:9876/produits
+	GET
+		{}
+			[{"id":1,"nom":"sandwich","idCategorie":1,"quantite":10,"prix":3,"description":"un sandwich basic là","perissable":true},{"id":2,"nom":"canette coca","idCategorie":2,"quantite":33,"prix":1.5,"description":"une boîte de 33cl","perissable":false}]

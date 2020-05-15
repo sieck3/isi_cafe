@@ -1,0 +1,9 @@
+﻿Cas d'utilisation : validation d'une commande
+
+L'employé est sur la page "commandes".
+Si le client paie la commande et que l'employé clique sur le bouton "commande payée", le système supprime la commande de la liste.
+Le système va aussi dans le profil du client au niveau de la liste de ses commandes cocher la case "payée".
+
+Scénario alternatif :
+
+Voir "appliquer une pénalité".

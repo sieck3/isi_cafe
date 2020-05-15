@@ -1,0 +1,9 @@
+cas d'utilisation: consulter ses commandes
+
+Scénario principal:
+Le client peut a partir de la page de profil cliquer sur le bouton "consulter ses commandes".
+Le système affiche une liste avec le id de la commande, la date, le contenu, le prix total et le statut ("payé"/"pénalité"/"en cours").
+
+Scénario alternatif:
+
+Si le client n'a pas encore effectué de commande, le système retourne un message "aucune commande effectuée".

@@ -1,0 +1,108 @@
+h1 {
+    font-size: 1.4rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.img-c {
+    width: 10%;
+    height: 300px;
+    margin: 0;
+    transform: skew(0deg);
+}
+
+#slider-container {
+    font-size: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 1000%;
+    animation-name: move;
+    animation-duration: 16s;
+    animation-iteration-count: infinite;
+    transition-timing-function: linear;
+    transform: skew(0deg);
+}
+
+#slider {
+    transform: skew(30deg);
+    display: inline-block;
+    height: 300px;
+    width: 800px;
+    position: absolute;
+    box-sizing: border-box;
+    margin-left: 20%;
+    overflow: hidden;
+    -webkit-box-shadow: 16px 17px 9px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 16px 17px 9px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 16px 17px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+#slider:hover {
+    border: black solid 3px;
+}
+
+@keyframes move {
+    0% {
+        top: 0;
+        left: 0;
+    }
+    10% {
+        top: 0;
+        left: -100%;
+    }
+    20% {
+        top: 0px;
+        left: -200%;
+    }
+    30% {
+        top: 0px;
+        left: -300%;
+    }
+    40% {
+        top: 0px;
+        left: -400%;
+    }
+    50% {
+        top: 0px;
+        left: -500%;
+    }
+    60% {
+        top: 0px;
+        left: -600%
+    }
+    70% {
+        top: 0px;
+        left: -700%
+    }
+    80% {
+        top: 0px;
+        left: -800%
+    }
+    90% {
+        top: 0px;
+        left: -900%
+    }
+    100% {
+        top: 0px;
+        left: -0%
+    }
+}
+
+.su-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.title {
+    width: 50%;
+    text-align: center;
+    font-size: 1.2;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}

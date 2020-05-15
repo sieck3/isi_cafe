@@ -1,0 +1,16 @@
+Cas d'utilisation : Voir le détail d'un produit
+
+Scénario principal :
+
+Dans le use case "consulter la liste des produits", le client clique sur l'item d'un produit.
+Le système va renvoyer le client vers une nouvelle page. Cette page contiendra le nom du produit, le prix, une courte description du produit et un bouton "+", qui déclenche le scénario "ajout d'un produit au panier".
+
+Le client peut faire défiler les photos pour voir les autres photos du produit (seulement s'il y a d'autres photos du produit).
+Si le client clique sur le bouton "<" le système affichera l'image précédente ou si il clique sur le bouton ">" le système affichera l'image suivante.
+
+
+Scénario alternatif :
+
+Si il n'y a pas de photos, le système affichera seulement le nom du produit, le prix, une courte description du produit et un bouton "+".
+Si toutes les images ont été vues par le client, le système fera disparaitre le bouton ">" qui permet de passer à la page suivante, le client aura donc accès seulement au bouton "<" pour revoir l'Image précédente.
+Une fois l'image précédente passé, le système affichera le bouton ">".

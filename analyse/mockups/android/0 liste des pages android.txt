@@ -1,0 +1,19 @@
+ - Aïssata :
+
+Connexion (use case : connexion)
+Réinitialisation mot de passe (lié a connexion)
+Inscription (use case : le client s'enregistre)
+
+ - Moussa :
+
+Profil (use case : consulter son profil)
+Historique des commandes (use case : afficher commande) 
+Confirmation suppression compte (use case : consulter profil)
+
+ - Pierre :
+
+Panier (use case : afficher panier)
+Validation commande (use case : passer commande, accessible depuis le panier)
+
+Catalogue (use case : afficher liste de produits)
+Détail produit (lié à catalogue, use case : détail produit)

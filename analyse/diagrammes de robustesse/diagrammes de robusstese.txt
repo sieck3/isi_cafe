@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+Aissata
+-afficher le panier(lié à vider le panier, effacer un produit, changer la quantité d'un produit)
+- Ajouter un produit au panier
+-passer une commande
+-consulter son profil
+- modifier son mot de passe
+- supprimer son compte
+-enregistrement
+
+Ariana
+-afficher les commande de la journee
+-consulter l'historique des ventes
+-appliquer une penalite
+ -valider une commande
+-reinitialite motte de passe 
+
+Cesar
+afficher la liste de produits(cote employee)
+afficher la liste de clients
+administrateur, afficher la liste des clients
+=======
+Aissata
+-afficher le panier(lié à vider le panier, effacer un produit, changer la quantité d'un produit)
+- Ajouter un produit au panier
+-passer une commande
+-consulter son profil
+-enregistrement
+
+Ariana
+-afficher les commande de la journee
+-consulter l'historique des ventes
+-appliquer une penalite
+ -valider une commande
+-reinitialite motte de passe 
+
+Cesar
+afficher la liste de produits(cote employee)
+afficher la liste de clients
+administrateur, afficher la liste des clients
+>>>>>>> 9c787971a396059694e22ccf77bf76a6c7d939e3

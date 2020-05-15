@@ -1,0 +1,72 @@
+html {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.app-contanier {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-contanier-header {
+    display: flex;
+    background-color: #46454f;
+    box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.6);
+    font-size: 1.1rem;
+    height: 90px;
+    /* box-shadow: 4px 4px 4px black;*/
+}
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    padding: 2%;
+}
+
+.liens-container {
+    flex: 80;
+}
+
+.app-contanier-body {
+    flex: 8;
+    height: 100%;
+}
+
+.ul-navbar-container {
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ul-navbar-container li {
+    display: inline;
+    color: white;
+}
+
+.ul-navbar-container li a:visited, a:active, a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.ul-navbar-container li img {
+    height: 35px;
+}
+
+.ul-navbar-container li:hover {
+    color: red;
+}
+
+.pannier-quantite {
+    display: flex;
+    flex-direction: column;
+}
+
+.pannier-quantite label {
+    text-align: center;
+}
+
+.pannier-quantite img {}

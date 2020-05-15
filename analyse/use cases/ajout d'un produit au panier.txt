@@ -1,0 +1,8 @@
+Cas d'utilisation : ajout d'un produit au panier
+
+Scénario principal :
+
+Le client clique sur un bouton "+"/"ajouter au panier", sur la page des produits (liste de produits).
+Le système enregistre le nouveau produit dans la liste de commandes de l'utilisateur.
+Le client peut alors sélectionner d'autres produits ou voir son panier.
+S'il reclique sur le même bouton, la quantité du produit dans le panier augmente de 1.

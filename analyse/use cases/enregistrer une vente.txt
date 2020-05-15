@@ -1,0 +1,18 @@
+﻿cas d'utilisation : l'employé enregistre une vente
+
+Scénario principal :
+
+Le système affiche une liste de tous les produits avec photo, nom, prix, un bouton "-", une quantité égale à 0, un bouton "+".
+L'affichage de la quantité varie quand l'employé clique sur "+" ou "-".
+Un bouton "annuler" remet toutes les quantités à 0 quand cliqué.
+Un bouton "vérifier" vérifie que les quantités en stock sont suffisantes pour honorer la commande.
+
+Si les stocks sont suffisants, le système affiche un récapitulatif de la commande avec nom du produit, prix unitaire, quantité, puis un prix total, un bouton "commande payée" et un bouton "annuler".
+	Si l'employé clique sur "commande payée", le système retire les produits du stock.
+	Si l'employé clique sur "annuler", l'affichage revient sur l'écran précédent.
+
+Scénario alternatif :
+
+Si les stocks ne sont pas suffisants, le système affiche un message et un tableau comparant la commande et le stock et proposant de saisir une nouvelle quantité.
+Un bouton "annuler" renvoie vers l'écran précédent.
+Un bouton "vérifier" vérifie que les quantités en stock sont suffisantes pour honorer la commande.

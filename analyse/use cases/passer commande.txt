@@ -1,0 +1,12 @@
+﻿Cas d'utilisation : passer commande
+
+Le client clique sur le bouton "commander" (dans son panier).
+Le système lui demande la date et l'heure de ramassage.
+
+Si le client choisit la date du jour, le système vérifie que tous les produits sont bien en stock et dans les quantités demandées puis retire ces produits du stock pour les placer dans la commande du client.
+Si les stocks ne sont pas suffisants, le système affiche un message au client lui signifiant que les stocks ne sont pas suffisants, lui montre une comparaison de sa commande et des stocks et l'invite à modifier sa commande en conséquence.
+
+Si le client choisit une date ultérieure, le système ajoute la commande dans la liste de commandes et affiche un message au client lui disant que sa commande a bien été passée.
+//le systeme va auusi dans le profil du clients au niveau de sa liste de commande enregitrer la commande
+
+Si le client choisit une date trop ultérieure (après-demain), le système lui indique qu'on ne peut pas faire de réservations autant en avance.

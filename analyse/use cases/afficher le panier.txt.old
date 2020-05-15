@@ -1,0 +1,22 @@
+Use case :  afficher le panier
+
+Scénario principal :
+
+Le système affiche la liste des produits ajoutés au panier.
+Chaque item contient une image (seulement si l'item a une image), le nom du produit, un bouton "-", la quantité du produit, un bouton "+" et un bouton "retirer". /*ici on par beaucoup dans le detail*/
+Le bouton "vider le panier" déclenche l'effacement de la liste.  /*ceci est un autre cas d utilisation*/
+Le bouton "valider la commande" déclenche le scénario "passer commande".
+Le bouton "+", "-" et "retirer" déclenchent le scénario "Changer la quantité d'un produit". 
+
+
+
+/**
+*   Scénario principal :
+*   utilisateur clique sur le pannier
+*   le systeme cherche et affiche la liste des produits pour cet utilisateur
+* 
+*   Scénario alternatif :
+*   utilisateur clique sur le pannier
+*   le systeme cherche et ne trouve pas de produit 
+*   le systeme affiche un message "aucun produit dans le panier"
+*/

@@ -1,0 +1,9 @@
+usecase : modifier le mot de passe
+
+Scénario principal :
+
+Le client à partir de son profil clique sur le bouton "modifier mot de passe". Le système affiche un formulaire à remplir qui demande l'ancien mot de passe, le nouveau mot de passe à taper deux fois. Après l'envoi du formulaire par le client, le système vérifie si les informations saisis sont corrects. Si les informations sont bien saisies, le système va modifier son mot de passe.
+
+Scénario alternatif :
+
+Si le client n'entre pas les informations correctement (quand les deux nouveaux mots de passe saisis ne sont pas identiques ou l'ancien mot de passe n'est pas bon), le système affichera un message d'erreur et demandera au client de resaisir les informations.

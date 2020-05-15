@@ -1,0 +1,16 @@
+Cas d'utilisation : consulter la liste des produits
+
+Ce cas d'utilisation est visible à l'ouverture du programme.
+
+Le système affiche la liste des produits en vente, avec les quantités disponibles, le prix des produits et un bouton "+", qui déclenche le scénario "ajout d'un produit au panier".
+
+Si le client clique sur un produit : cas d'utilisation "voir le détail d'un produit".
+
+
+/***
+**
+*rem :
+*  on pourrait aller tres loin et ajouter un scenario alternatif ou 
+*  on n a pas la connexion avec le serveur du coup on redirige vers une page d erreur ... 
+*
+*/

@@ -1,0 +1,8 @@
+cas d'utilisation : consulter son profil
+
+Le client clique sur l'icône "profil".
+
+Le système affiche un formulaire pour éditer ses informations (nom, prénom, mot de passe) et un bouton "modifier".
+Si le client clique sur "modifier", le système enregistre les nouvelles informations dans la base de données.
+Le système affiche également les statistiques du client : pénalité en cours (+ temps restant), nombre de pénalités total, nombre de commandes total, un bouton "voir commandes" qui déclenche le scénario "consulter ses commandes", la date d'inscription. 
+Le système affiche un bouton "supprimer le compte". S'il est cliqué, le système retire le compte de la base de données et le client est redirigé vers une page qui confirme la suppression du compte.

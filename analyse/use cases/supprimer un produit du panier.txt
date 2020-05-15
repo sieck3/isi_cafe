@@ -1,0 +1,4 @@
+useCase : Effacer un produit du panier
+
+Scénario principal :
+Le client clique sur le bouton "retirer" le système va chercher ce produit dans le panier et le supprime du panier. Ce produit n'apparaitra plus dans le panier.

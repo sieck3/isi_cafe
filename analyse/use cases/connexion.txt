@@ -1,0 +1,11 @@
+﻿Cas d'utilisation : l'utilisateur se connecte
+
+L'utilisateur rentre son username (de l'école) et un mot de passe. Il clique sur le bouton de connexion.
+Le système interroge le serveur pour savoir si le compte utilisateur existe.
+S'il est correctement connecté, il est redirigé vers l'accueil, qui affiche son nom pour confirmer qu'il est correctement connecté.
+
+Scénario alternatif :
+L'utilisateur clique sur le lien "mot de passe oublié ?", le système l'envoie vers une nouvelle page qui lui demande son username.
+
+Si l'utilisateur n'est pas correctement connecté, il reste sur la même page avec un message en rouge lui indiquant qu'un des deux champs n'est pas correct.
+Le système propose à l'utilisateur une réinitialisation de mot de passe. Il propose aussi de s'enregistrer en tant que nouveau client.

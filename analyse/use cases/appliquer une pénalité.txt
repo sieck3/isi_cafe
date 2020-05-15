@@ -1,0 +1,12 @@
+Cas d'utilisation : appliquer une pénalité
+
+En fin de journée, l'employé clique sur le bouton "afficher la liste des commandes".
+Le système affiche la liste des commandes.
+Si une commande est toujours affichée, c'est que le client n'est pas venu la chercher.
+L'employé clique, à partir d'une commande, sur le bouton "pénaliser" .
+Le système pénalise le compte du client (impossibilité de passer commande) pendant un certain temps (une semaine, un mois, ...).
+Le système élimine ensuite la commande de la liste.
+
+/**
+* qui s occupe d elimier la commande ???????
+*/

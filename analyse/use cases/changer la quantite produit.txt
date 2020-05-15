@@ -1,0 +1,7 @@
+Cas d'utilisation : Changer la quantite d'un produit dans le panier
+
+Scénario principal :
+
+Sur la page panier le client modifie la quantité d'un produit en cliquant sur le bouton "+" pour ajouter 1 de plus ou "-" pour enlever 1 de ce produit.
+
+Si le client clique sur "retirer" (dans l'item du produit), l'item est retiré de la liste.

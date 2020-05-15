@@ -1,0 +1,76 @@
+.connexion-container {}
+
+.connexion-container h3 {
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: .9rem;
+}
+
+.login-component {
+    /* background-color: aqua;*/
+    width: 40%;
+    margin: 0 auto;
+    border: black solid 1px;
+    border-radius: 30px;
+    padding: 20px;
+    /* height: 400px;*/
+    box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.6);
+}
+
+.login-component form {
+    height: 400px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.login-component div {
+    display: flex;
+    flex-direction: column;
+    /*background-color: blueviolet;*/
+    margin: 0 auto;
+    height: 20%;
+    font-size: .8rem;
+}
+
+.psw-oblie {
+    text-align: end;
+    height: 50%;
+    font-size: .8rem;
+}
+
+.pas-compte {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    height: 60%;
+    font-size: .8rem;
+}
+
+.login-component div button {
+    background-color: #00AF33;
+    width: 40%;
+    height: 55%;
+    font-size: .8rem;
+    margin: 0 auto;
+}
+
+.login-component div button:hover {
+    background-color: rgb(88, 209, 94);
+}
+
+.login-component div input {
+    border: black solid 1px;
+    height: 35px;
+    text-align: center;
+}
+
+.login-component div a {
+    color: red;
+    text-decoration: underline black;
+}
+
+.login-component div a:hover {
+    color: orange;
+}

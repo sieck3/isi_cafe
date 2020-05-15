@@ -1,0 +1,5 @@
+consulter les stocks disponibles => voir le détail d'un produit
+
+/**
+* comprend pas
+*/

@@ -1,0 +1,83 @@
+.profil-titre {
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.3rem;
+}
+
+.section {
+    /*background-color: red;*/
+}
+
+.profil-container {
+    /* background-color: aqua;*/
+    width: 40%;
+    margin: 0 auto;
+    border: black solid 1px;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0px 5px 11px 1px rgba(0, 0, 0, 0.6);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    /*background-color: blueviolet;*/
+    margin: 4px;
+    font-size: .7rem;
+}
+
+.profil-container div input {
+    border: black solid 1px;
+    text-align: center;
+    width: 100;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.btn-container button {
+    height: 40px;
+    margin: 0 auto;
+    font-size: .6rem;
+}
+
+.spr_compte {
+    background-color: red;
+}
+
+.spr_compte:hover {
+    background-color: orange;
+}
+
+.btn-modif {
+    background-color: #00AF33;
+    width: 20%;
+    margin: 2px;
+    text-align: center;
+}
+
+.btn-modif:hover {
+    background-color: rgb(88, 209, 94);
+}
+
+.lbl-info {
+    font-weight: bold;
+}
+
+.envoie {
+    background-color: #00AF33;
+    width: 20%;
+    margin: 2px;
+}
+
+.envoie:hover {
+    background-color: rgb(88, 209, 94);
+}
+
+.mot-invalide {
+    color: red;
+}

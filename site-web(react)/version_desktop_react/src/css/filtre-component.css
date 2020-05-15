@@ -1,0 +1,12 @@
+.filtre-component {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    margin-top: 6px;
+}
+
+.filtre-component h3 {
+    font-size: .9rem;
+    color: purple;
+}

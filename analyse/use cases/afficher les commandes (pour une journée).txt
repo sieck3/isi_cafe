@@ -1,0 +1,15 @@
+Cas d'utilisation : afficher les commandes (pour une journée)
+
+Scénario principal :
+
+L'employé clique sur le bouton "commandes".
+Le système affiche les commandes effectuées pour le jour courant.
+Chaque commande indique le nom de la personne que l'a passée, l'heure de ramassage prévue, le contenu, le prix à payer, avec un bouton "commande payée" à cliquer si la personne paie et un bouton "pénaliser" à cliquer si le client n'est pas passé.
+
+Scénario alternatif :
+L'employé clique sur le bouton "commandes".
+Le système affiche un message "pas de commandes"
+
+Scénario alternatif :
+L'employé clique sur le bouton "commandes" et la base de données n'est pas disponible.
+Le système affiche un message d'erreur "pas de connexion".
